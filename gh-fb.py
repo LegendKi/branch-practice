@@ -1,7 +1,9 @@
 for num in range(1,16):
-    if i % 3 == 0:
+    if num % 15 == 0:
+        print('fizzbuzz')
+    elif num % 3 == 0:
         print('fizz')
-    elif i % 5 == 0:
+    elif num % 5 == 0:
         print('buzz')
     else:
         print(num)
