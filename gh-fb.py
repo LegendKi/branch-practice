@@ -1,2 +1,7 @@
 for num in range(1,16):
-    print(num)
+    if i % 3 == 0:
+        print('fizz')
+    elif i % 5 == 0:
+        print('buzz')
+    else:
+        print(num)
